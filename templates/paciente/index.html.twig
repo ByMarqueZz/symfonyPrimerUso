@@ -1,0 +1,8 @@
+<h1>Pacientes</h1>
+
+<ul>
+    {% for key, paciente in pacientes %}
+        <li>{{ key }} {{ paciente }}</li>
+    {% endfor %}
+    <a href="{{ path('pacienteMovil') }}">pacientes con móvil</a>
+</ul>

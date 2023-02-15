@@ -1,5 +1,11 @@
 controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+    resource: ../src/Controller/
+    type: annotation
+
+forms:
+    resource: ../src/Form/
+    type: annotation
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
